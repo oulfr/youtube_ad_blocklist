@@ -9243,3 +9243,4 @@ ad-g.doubleclick.net
 ad.doubleclick.net
 2mdn.net
 2975c.v.fwmrm.net
+(.|^)googlevideo.com$
