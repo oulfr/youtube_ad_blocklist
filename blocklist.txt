@@ -12,4 +12,8 @@ googlevideo.com/initplayback
 www.youtube.com/api/timedtext
 www.youtube.com/api/stats/qoe
 www.youtube.com/api/stats/atr
-
+www.youtube.com/pagead/adview
+www.youtube.com/api/stats/ads
+www.youtube.com/ptracking
+googlevideo.com/initplayback?source=youtube&oad=3200
+googlevideo.com/initplayback?source=youtube&oaad=11000
