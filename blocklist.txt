@@ -86,6 +86,17 @@ securepubads.g.doubleclick.net
 ^https?:\/\/(www\.)?youtube\.com\/gen_204\?
 ^https?:\/\/(www\.)?youtube\.com\/feed_change_ajax\?
 
+# Block video ads
+^r[0-9]+---sn-[a-z0-9]+\.googlevideo\.com$
+
+# Block ad tracking and reporting
+^https?:\/\/(www\.)?youtube\.com\/api\/stats\/(ads|qoe|atr)
+^https?:\/\/(www\.)?youtube\.com\/pagead\/
+^https?:\/\/(www\.)?youtube\.com\/.+\/ads\?
+
+# Block specific ad-related parameters
+(^|\.)googlevideo\.com\/videoplayback\?.*(&|\?)siu=1.*
+(^|\.)youtube\.com\/.*(&|\?)ctier=L.*
 # Block specific ad-related paths
 ^https?:\/\/(www\.)?youtube\.com\/.+\/ads\?
 ^https?:\/\/(www\.)?youtube\.com\/annotations_invideo\?
