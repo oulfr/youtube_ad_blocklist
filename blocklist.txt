@@ -32,3 +32,17 @@ www.youtube.com/ptracking
 (^|\.)rr.*\.googlevideo\.com$
 (^|\.)youtube\.com\/api\/timedtext.*
 (^|\.)ytimg\.com$
+# Basic YouTube ad blocking
+^r[0-9]+---sn-[a-z0-9]+\.googlevideo\.com$
+
+# More aggressive pattern (may cause false positives)
+^(r[0-9]+(-+|.+)sn-.+|.+\.googlevideo\.com)$
+
+# Target specific ad-related subdomains
+^(www\.)?youtube\.com\/(pagead|ptracking)
+^s\.ytimg\.com\/yts\/img\/channels\/
+
+# Block tracking pixels
+^https?:\/\/(www\.)?youtube\.com\/api\/stats\/ads
+^https?:\/\/(www\.)?youtube\.com\/pagead\/
+^https?:\/\/s\.ytimg\.com\/yts\/img\/pixel-
