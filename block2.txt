@@ -1,1 +1,19 @@
+# General ad-related domains
+^(ads?|adserv(er?)?|advert(s|is(ing|ements?))?|banners?|beacons?)\.
 
+# YouTube video ads and tracking
+^r[0-9]+--[-a-z0-9]+\.googlevideo\.com$
+^(www\.)?youtube\.com\/(api\/stats\/(ads|qoe|atr)|pagead|ptracking|api\/timedtext)
+^s\.ytimg\.com\/yts\/img\/(channels\/|pixel-)
+^(\w+\.)?googlevideo\.com\/(videoplayback|initplayback).*(&|\?)(ctier=L|oad=|siu=1)
+^https?:\/\/(\w+\.)?googlevideo\.com\/ptracking\?
+
+# Block tracking and telemetry
+^(www\.)?youtube\.com\/(csi_204|error_204|gen_204|feed_change_ajax)\?
+
+# Block short videos (potential ads)
+^https?:\/\/.*\.googlevideo\.com\/videoplayback.*(&|\?)dur=((?:[1-9]|[1-9][0-9]|[12][0-9][0-9])(?:\.\d+)?)(&|$)
+
+# YouTube domains
+(^|\.)yt3\.ggpht\.com$
+(^|\.)ytimg\.com$
