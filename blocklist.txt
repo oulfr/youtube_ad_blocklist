@@ -100,3 +100,9 @@ securepubads.g.doubleclick.net
 # Block specific ad-related paths
 ^https?:\/\/(www\.)?youtube\.com\/.+\/ads\?
 ^https?:\/\/(www\.)?youtube\.com\/annotations_invideo\?
+
+# Block videos shorter than 5 minutes (300 seconds)
+^https?:\/\/r[0-9]+---sn-[a-z0-9]+\.googlevideo\.com\/videoplayback.*(&|\?)dur=([0-9]{1,2}|[12][0-9]{2}|300)(&|$)
+
+# Additional patterns to enhance blocking
+^https?:\/\/r[0-9]+---sn-[a-z0-9]+\.googlevideo\.com\/videoplayback.*(&|\?)ctier=L.*(&|\?)dur=([0-9]{1,2}|[12][0-9]{2}|300)(&|$)
