@@ -20,3 +20,15 @@ www.youtube.com/ptracking
 (^|\.)youtube\.com\/api\/stats\/ads.*
 (^|\.)youtube\.com\/pagead\/.*
 (^|\.)yt3\.ggpht\.com.*
+(^|\.)youtube\.com\/api\/stats\/ads.*
+(^|\.)youtube\.com\/pagead.*
+(^|\.)youtube\.com\/ptracking.*
+(^|\.)youtube\.com\/api\/stats\/atr.*
+(^|\.)youtube\.com\/api\/stats\/qoe.*
+(^|\.)googlevideo\.com\/videoplayback\?.*oad.*
+(^|\.)googlevideo\.com\/initplayback\?.*oad.*
+(^|\.)googlevideo\.com\/initplayback.*
+(^|\.)r.*---sn-.*\.googlevideo\.com$
+(^|\.)rr.*\.googlevideo\.com$
+(^|\.)youtube\.com\/api\/timedtext.*
+(^|\.)ytimg\.com$
